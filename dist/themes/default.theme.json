@@ -1,0 +1,47 @@
+{
+	"name": "default",
+	"version": "0.01",
+	"htmlColor": "#4a148c",
+	"colorName": "purple darken-4",
+
+	"styleSheets": [ "/css/materialize.min.css", "/css/td.default.css" ],
+	"scripts": [ "/js/td.default.deps.js" ],
+
+	"routes": [
+		{
+			"name": "home",
+			"styleSheets": [ "/css/style.css" ],
+			"scripts": ["/js/td.default.home.js"]
+		},
+		{
+			"name": "tabletec",
+			"scripts": ["/js/td.default.tabletec.js"]
+		},
+		{
+			"name": "signup",
+			"scripts": ["/js/td.default.signup.js"]
+		},
+		{
+			"name": "account",
+			"scripts": ["/js/td.default.account.js"]
+		},
+		{
+			"name": "about",
+			"scripts": ["/js/td.default.about.js"]
+		},
+
+
+		{
+			"name": "adm-home",
+			"scripts": ["/js/td.default.adm-home.js"]
+		},
+		{
+			"name": "inventory",
+			"scripts": ["/js/td.default.inventory.js"]
+		},
+		{
+			"name": "error",
+			"scripts": ["/js/td.default.error.js"]
+		}
+	]
+}

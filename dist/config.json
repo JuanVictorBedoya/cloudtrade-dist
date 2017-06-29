@@ -1,0 +1,11 @@
+{
+	"db": {
+		"connection": {
+			"host": "",
+			"port": "",
+			"user": "",
+			"pass": "",
+			"sysdb": "cloudtrade"
+		}
+	}
+}
